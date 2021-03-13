@@ -1,0 +1,77 @@
+<title>Menu</title>
+<link rel="stylesheet" href="styleee.css">
+<div class="header">
+        <span class="snake1"></span>
+        <span class="snake2"></span>
+          
+        <div class="inner_header">
+          <div class="logo_container">
+            <h1>Կայքի անունը<span></span></h1>
+          </div>
+          <ul class="navigation">
+            <a href="index.html"><li> Home </li></a>
+            <a href="about.html"><li> About </li></a>
+            <a href="shop.html"><li> Shop </li></a>
+            
+          </ul>
+        </div>
+      </div>
+ <div class="container"> 
+   
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <img src="bg.png" height="100px" width="150px">
+            <h3 class="productname">Ապրանքի անունը</h3>
+            <p>Նկարագրությունը</p>
+            <p class="price">$5.05</p>
+            <button class="addtocart">Ավելացնել քարտին</button>
+        </div>
+        <div class="product">
+            <img src="bg.png" height="100px" width="150px">
+            <h3 class="productname">Ապրանքի անունը</h3>
+            <p>Նկարագրությունը</p>
+            <p class="price">$8.50</p>
+            <button class="addtocart">Ավելացնել քարտին</button>
+        </div>
+        <div class="product">
+            <img src="bg.png" height="100px" width="150px">
+            <h3 class="productname">Ապրանքի անունը</h3>
+            <p>Նկարագրությունը</p>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Ավելացնել քարտին</button>
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Քարտ</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Անունը</strong></th>
+              <th><strong>Գինը</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Քանակը</strong></td>
+              <td><strong>Ընդհանուր</strong></td>
+            </tr>
+            <tr>
+              <td> <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Ջնջել</button>
+           
+          </div>
+        </div>
+</div>
+    
+<script src="js1.js"></script>
